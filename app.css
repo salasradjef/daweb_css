@@ -1,4 +1,4 @@
-*{
+*{  
     margin: 0;
     padding: 0;
     
@@ -6,7 +6,7 @@
 header {
     background-color: #D3D3D3;
     font-family: sans-serif;
-    font-size: 2em;
+    font-size: 2rem;
     color:white;
     padding:15px 0 ;
     border: 1px solid black;
@@ -23,6 +23,7 @@ nav {
 nav > ul {
     list-style-type: none;
     
+    
 }
 
 
@@ -37,6 +38,7 @@ li > a:hover{
 }
 
 aside{
+    font-size: 1rem;
     color:magenta;
     width: 150px;
     height: 300px;   
@@ -51,13 +53,13 @@ footer {
     font-family:sans-serif ;
     font-size: 0.9em;
     padding-top: 30px;
+    color:white;
     
 }
 
 
 footer > p {
     float:left;
-    color:white;
 }
 footer > div {
     
@@ -67,4 +69,10 @@ footer > div {
 footer > div > a {
     text-decoration:none;
     color:white;
+    
+}
+footer > div > a:hover {
+    font-size: 1.2rem;
+    font-family: monospace;
+    color: hotpink;
 }
